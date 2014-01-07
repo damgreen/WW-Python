@@ -1,5 +1,6 @@
 ## solutions to the breakout #1 (Day 1)
 sent = ""
+
 while True:
     newword = raw_input("Please enter a word in the sentence (enter . ! or ? to end.): ")
     if newword == "." or newword == "?" or newword == "!":
@@ -10,6 +11,6 @@ while True:
         break
     
     sent += newword + " "
+    print newword
     print "...currently: " + sent
 print "--->" + sent
-###  created by Josh Bloom at UC Berkeley, 2010,2012 (ucbpythonclass+bootcamp@gmail.com)
